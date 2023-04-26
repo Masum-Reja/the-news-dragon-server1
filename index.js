@@ -1,4 +1,3 @@
-
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -20,4 +19,3 @@ app.get("/categories", (req, res) => {
 app.listen(port, () => {
   console.log(`Dragon News API is running on port: ${port}`);
 });
-
